@@ -1,0 +1,95 @@
+/* index.css */
+:root {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --primary-color: #4facfe;
+  --board-bg: #1e1e1e;
+  --square-bg: #2a2a2a;
+  --square-hover: #3a3a3a;
+  --x-color: #ff4757;
+  --o-color: #2ed573;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px; /* Keeps it looking like a mobile app on big screens */
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(79, 172, 254, 0.5);
+}
+
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #cccccc;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Automatically sizes columns */
+  gap: 12px;
+  background-color: var(--board-bg);
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.square {
+  aspect-ratio: 1 / 1; /* Keeps the boxes perfectly square */
+  background-color: var(--square-bg);
+  border: none;
+  border-radius: 12px;
+  font-size: 4rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.square:hover {
+  background-color: var(--square-hover);
+  transform: scale(0.96); /* Tiny shrink effect when clicked */
+}
+
+/* Colors for the players */
+.square.X { color: var(--x-color); }
+.square.O { color: var(--o-color); }
+
+.reset-btn {
+  margin-top: 2.5rem;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+}
+
+.reset-btn:hover {
+  background-color: #3b8fe0;
+  transform: translateY(-2px);
+}
