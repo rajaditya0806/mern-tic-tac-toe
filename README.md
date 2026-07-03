@@ -92,6 +92,7 @@ tic-tac-toe-mern/
     └── vite.config.js
 
 ## 👨‍💻 Author
+```
 
 
 **Aditya Raj**
