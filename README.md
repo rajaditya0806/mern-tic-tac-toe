@@ -91,9 +91,9 @@ tic-tac-toe-mern/
     │   └── index.css       # Custom dark theme and responsive styling
     └── vite.config.js
 
-## 👨‍💻 Author
+
 ```
 
-
+## 👨‍💻 Author
 **Aditya Raj**
 * GitHub: [@rajaditya0806](https://github.com/rajaditya0806)
