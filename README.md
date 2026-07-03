@@ -35,7 +35,7 @@ Follow these instructions to run a copy of the project on your local machine for
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/rajaditya0806/tic-tac-toe-mern.git
+git clone https://github.com/rajaditya0806/mern-tic-tac-toe.git
 cd tic-tac-toe-mern
 \`\`\`
 
