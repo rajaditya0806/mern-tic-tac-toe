@@ -71,7 +71,7 @@ Open your browser and navigate to `http://localhost:5173` to play the game!
 
 ## 📂 Folder Structure
 
-\`\`\`text
+```text
 tic-tac-toe-mern/
 ├── backend/
 │   ├── models/
@@ -90,7 +90,6 @@ tic-tac-toe-mern/
     │   ├── App.jsx         # Main application state and layout
     │   └── index.css       # Custom dark theme and responsive styling
     └── vite.config.js
-\`\`\`
 
 ## 👨‍💻 Author
 
